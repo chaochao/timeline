@@ -1,0 +1,60 @@
+h1{
+  text-align: center;
+}
+#timeline-container{
+  margin-top: 50px;
+  overflow: auto;
+}
+
+.box{
+  display: inline-block;
+  height: 10px;
+  min-width: 20px;
+  width: calc(10% - 1px);
+  border-right: 1px solid black;
+  z-index: 1;
+}
+
+#home-line{
+  position: relative;
+  margin: 0 auto;
+  min-width: 200px;
+  width: 80%;
+  height: 13px;
+}
+#timeline{
+  margin: auto;
+  min-width: 200px;
+  width: 80%;
+  height: 10px;
+  background-color: #c9c9c9;
+}
+#away-line{
+  position: relative;
+  margin: 0 auto;
+  min-width: 200px;
+  width: 80%;
+  height: 15px;
+}
+.action{
+  position: absolute;
+  transform: translate(-50%);
+  height: 15px;
+  z-index:2;
+  float: left;
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+}
+.combain{
+  border-radius: 0%;
+}
+.home{
+  top: 2px;
+  background-color: #3aa4f4;
+}
+.away{
+  top: -2px;
+  background-color: red;
+}
